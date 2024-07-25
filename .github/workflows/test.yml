@@ -1,18 +1,18 @@
-on:
-  release:
-    types: [published]
-
-jobs:
-  github-example-tags:
-    runs-on: ubuntu-latest
-    steps:
-     - name: GitHub Tag Name example
-       run: |
-         echo "Tag name from GITHUB_REF_NAME: $GITHUB_REF_NAME"
-         echo "Tag name from github.ref_name: ${{  github.ref_name }}"
-         MAJOR_VERION=$(echo $version | cut -d'.' -f1 | tr -d 'v')
-         MINOR_VERSION=$(echo $version | cut -d'.' -f2)
-         PATCH_VERSION=$(echo $version | cut -d'.' -f3)
-         echo "Major version: $MAJOR_VERSION"
-         echo "Minor version: $MINOR_VERSION"
-         echo "Patch version: $PATCH_VERSION"
+# on:
+#   release:
+#     types: [published]
+#
+# jobs:
+#   github-example-tags:
+#     runs-on: ubuntu-latest
+#     steps:
+#      - name: GitHub Tag Name example
+#        run: |
+#          echo "Tag name from GITHUB_REF_NAME: $GITHUB_REF_NAME"
+#          echo "Tag name from github.ref_name: ${{  github.ref_name }}"
+#          MAJOR_VERION=$(echo $version | cut -d'.' -f1 | tr -d 'v')
+#          MINOR_VERSION=$(echo $version | cut -d'.' -f2)
+#          PATCH_VERSION=$(echo $version | cut -d'.' -f3)
+#          echo "Major version: $MAJOR_VERSION"
+#          echo "Minor version: $MINOR_VERSION"
+#          echo "Patch version: $PATCH_VERSION"
