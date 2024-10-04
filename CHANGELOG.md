@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.0.0](https://github.com/vdbe/test/compare/v2.0.0...v3.0.0) (2024-10-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* major release 1
+
+### Features
+
+* major release 1 ([a9c8c27](https://github.com/vdbe/test/commit/a9c8c2780ea704b0ebd9c1e44e350e52043f6eae))
+* major release 1 ([600cfe0](https://github.com/vdbe/test/commit/600cfe03a968a328889f0d779e42a38b0a564c34))
+* update readme ([04bd1be](https://github.com/vdbe/test/commit/04bd1be37a52a4d9658b4a23553757f358a2a7e2))
+* Update README.md ([431f726](https://github.com/vdbe/test/commit/431f726921381e0600085fbced0fb7d316b9d9ca))
+
 ## [2.0.0](https://github.com/vdbe/test/compare/v1.0.0...v2.0.0) (2024-07-25)
 
 
